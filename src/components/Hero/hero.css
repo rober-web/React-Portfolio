@@ -1,0 +1,10 @@
+#hero {
+  height: auto;
+  background-color: orange;
+}
+.the-border {
+  border: solid 1px red;
+}
+.main-image {
+  width: 250px;
+}
