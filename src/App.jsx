@@ -1,16 +1,14 @@
-import { useState } from "react";
+//import { useState } from "react";
 
-import "./App.css";
+//import "./App.css";
 import Header from "./template/Header";
 
-function App() {
-
-
+const App = () => {
   return (
     <>
       <Header />
     </>
   );
-}
+};
 
 export default App;
