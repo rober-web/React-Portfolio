@@ -1,7 +1,13 @@
+import Header from "../template/Header";
+import Footer from "../template/Footer";
+import Contact from "../components/contact/Contact";
+
 const ContactPage = () => {
   return (
     <>
-      <h1>This is the contact page</h1>
+      <Header />
+      <Contact />
+      <Footer />
     </>
   );
 };

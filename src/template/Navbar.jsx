@@ -1,3 +1,6 @@
+import React from "react";
+import { Link } from "react-router-dom";
+
 const Navbar = () => {
   return (
     <>
@@ -22,29 +25,25 @@ const Navbar = () => {
             id="navbarNavAltMarkup"
           >
             <div className="navbar-nav">
-              <a
-                href=""
-                className="nav-link active"
-                aria-current="page"
-                href="#"
-              >
+              <Link className="nav-link active" to="/" aria-current="page">
                 Home
-              </a>
+              </Link>
             </div>
+
             <div className="navbar-nav">
-              <a href="" className="nav-link" aria-current="page" href="#">
+              <Link to="/gallery" className="nav-link" aria-current="page">
                 Gallery
-              </a>
+              </Link>
             </div>
             <div className="navbar-nav">
-              <a href="" className="nav-link" aria-current="page" href="#">
+              <Link to="/about" className="nav-link" aria-current="page">
                 About
-              </a>
+              </Link>
             </div>
             <div className="navbar-nav">
-              <a href="" className="nav-link" aria-current="page" href="#">
+              <Link to="/contact" className="nav-link" aria-current="page">
                 Contact
-              </a>
+              </Link>
             </div>
           </div>
         </div>
