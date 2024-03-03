@@ -1,0 +1,15 @@
+:root {
+  --main-section-title: 2em;
+  --main-section-text: 1.5em;
+}
+
+.main-section {
+    
+}
+
+.main-section-title {
+  font-size: var(--main-section-title);
+}
+.main-section-text {
+  font-size: var(--main-section-text);
+}
