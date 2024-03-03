@@ -21,7 +21,7 @@ const Navbar = () => {
             <span className="navbar-toggler-icon"></span>
           </button>
           <div
-            className="collapse navbar-collapse  text-center d-flex justify-content-end px-5"
+            className="collapse navbar-collapse  text-center  justify-content-end px-5"
             id="navbarNavAltMarkup"
           >
             <div className="navbar-nav">
@@ -31,15 +31,17 @@ const Navbar = () => {
             </div>
 
             <div className="navbar-nav">
-              <Link to="/gallery" className="nav-link" aria-current="page">
-                Gallery
-              </Link>
-            </div>
-            <div className="navbar-nav">
               <Link to="/about" className="nav-link" aria-current="page">
                 About
               </Link>
             </div>
+
+            <div className="navbar-nav">
+              <Link to="/gallery" className="nav-link" aria-current="page">
+                Gallery
+              </Link>
+            </div>
+
             <div className="navbar-nav">
               <Link to="/contact" className="nav-link" aria-current="page">
                 Contact
