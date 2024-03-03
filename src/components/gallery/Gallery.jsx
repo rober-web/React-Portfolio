@@ -1,10 +1,9 @@
-
-
 const Gallery = () => {
   return (
     <>
-
-      <h1>this is the gallery</h1>
+      <section id="gallery" className="animate__animated animate__fadeInRight">
+        <h1>this is the gallery</h1>
+      </section>
     </>
   );
 };

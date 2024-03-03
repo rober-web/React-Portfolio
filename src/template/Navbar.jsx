@@ -25,7 +25,7 @@ const Navbar = () => {
             id="navbarNavAltMarkup"
           >
             <div className="navbar-nav">
-              <Link className="nav-link active" to="/" aria-current="page">
+              <Link className="nav-link active" to="/home" aria-current="page">
                 Home
               </Link>
             </div>

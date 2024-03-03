@@ -3,7 +3,10 @@ import mainImage from "../../assets/img/main-image.png";
 
 const Hero = () => {
   return (
-    <section id="hero" className="d-flex align-items-center min-vh-100">
+    <section
+      id="hero"
+      className="d-flex align-items-center min-vh-100 animate__animated animate__fadeInLeft "
+    >
       <div className="container-fluid">
         <div className="row">
           <div className="col-md-6 the-border d-flex justify-content-center px-5 pb-5 mt-md-5">
@@ -14,8 +17,8 @@ const Hero = () => {
               alt="Main"
             />
           </div>
-          <div className="col-md-6 the-border text-center">
-            <h1>Hello, this is Roberto</h1>
+          <div className="col-md-6 the-border text-center d-flex flex-column align-items-center justify-content-center">
+            <h1 className="">Hello, this is Roberto</h1>
             <p className="">
               Crafting Astonishing Websites to Knock Out Your Digital Goals.
             </p>
