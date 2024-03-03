@@ -1,10 +1,66 @@
+:root {
+  --bg-primary-color: rgb(0, 0, 0);
+  --hero-title-color: rgb(194, 141, 44);
+  --hero-title-font: "Roboto Condensed", sans-serif;
+  --hero-title-font-size: 2.5em;
+  --hero-tagline-color: rgb(255, 255, 255);
+  --hero-tagline-font: "Montserrat", sans-serif;
+  --hero-tagline-font-size: 1.3em;
+}
+
 #hero {
   height: auto;
-  background-color: orange;
+  background-color: var(--bg-primary-color);
+  color: rgb(194, 141, 44);
+}
+#hero h1 {
+  font-family: var(--hero-title-font);
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-size: var(--hero-title-font-size);
+}
+#hero p {
+  color: var(--hero-tagline-color);
+  font-family: var(--hero-tagline-font);
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-size: var(--hero-tagline-font-size);
+}
+#hero-img {
 }
 .the-border {
-  border: solid 1px red;
+  /* border: solid 1px red; */
 }
 .main-image {
-  width: 250px;
+  /* width: 250px; */
+  width: min(max(250px, 80%), 400px);
+  height: auto; /* Ensures the height adjusts proportionally */
+}
+
+/* Example media query for small screens */
+@media (min-width: 576px) {
+  /* Your styles for small screens */
+  .main-image {
+    margin-top: 50px;
+  }
+}
+
+/* Example media query for medium screens */
+@media (min-width: 768px) {
+  /* Your styles for medium screens */
+}
+
+/* Example media query for large screens */
+@media (min-width: 992px) {
+  /* Your styles for large screens */
+}
+
+/* Example media query for extra-large screens */
+@media (min-width: 1200px) {
+  /* Your styles for extra-large screens */
+}
+
+/* Example media query for extra-extra-large screens */
+@media (min-width: 1400px) {
+  /* Your styles for extra-extra-large screens */
 }
