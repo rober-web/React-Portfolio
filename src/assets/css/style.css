@@ -3,6 +3,13 @@
   --main-section-text: 1.5em;
 }
 
+*{
+  list-style-type: none;
+  padding: none;
+  margin:none;
+  text-decoration: none;
+}
+
 .main-section {
     
 }
