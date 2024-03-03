@@ -1,12 +1,8 @@
-
-
 const Contact = () => {
-
-    return(
-        <>
-            <h1>This is the Contact</h1>
-        </>
-    );
-
-}
+  return (
+    <>
+      <h1 className="main-section-title text-center">Contact</h1>
+    </>
+  );
+};
 export default Contact;
