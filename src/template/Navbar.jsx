@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 const Navbar = () => {
   return (
     <>
-      <nav className="navbar ">
+      <nav className="navbar navbar-expand-md ">
         <div className="container-fluid">
           <a href="#" className="navbar-brand">
             RoberWeb
@@ -21,7 +21,7 @@ const Navbar = () => {
             <span className="navbar-toggler-icon"></span>
           </button>
           <div
-            className="collapse navbar-collapse  text-center "
+            className="collapse navbar-collapse  text-center d-flex justify-content-end px-5"
             id="navbarNavAltMarkup"
           >
             <div className="navbar-nav">
