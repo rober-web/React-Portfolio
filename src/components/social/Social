@@ -1,0 +1,17 @@
+
+
+const Social = =>{
+
+    return(
+        <div>
+            <ul>
+                <li>Github</li>
+                <li>Linkedin</li>
+                <li>Email</li>
+                <li>CV</li>
+            </ul>
+        </div>
+    )
+
+}
+export default Social;
