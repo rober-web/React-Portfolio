@@ -3,24 +3,27 @@ import mainImage from "../../assets/img/main-image.png";
 
 const Hero = () => {
   return (
-    <>
-      <section id="hero" className="d-flex align-items-center min-vh-100">
-        <div className="container-fluid">
-          <div className="row ">
-            <div className="col-xs-12  col-md-6 the-border d-flex justify-content-center p-3">
-              <img src={mainImage} className="img-fluid main-image" />
-            </div>
-            <div className="col-xs-12 col-md-6 the-border text-center">
-              <h1>Hello, this is Roberto</h1>
-              <p>
-                Crafting Astonishing Websites to Knock Out Your Digital Goals.
-              </p>
-            </div>
+    <section id="hero" className="d-flex align-items-center min-vh-100">
+      <div className="container-fluid">
+        <div className="row">
+          <div className="col-md-6 the-border d-flex justify-content-center px-5 pb-5 mt-md-5">
+            <img
+              id="hero-img"
+              src={mainImage}
+              className="img-fluid main-image"
+              alt="Main"
+            />
+          </div>
+          <div className="col-md-6 the-border text-center">
+            <h1>Hello, this is Roberto</h1>
+            <p className="">
+              Crafting Astonishing Websites to Knock Out Your Digital Goals.
+            </p>
           </div>
         </div>
-      </section>
-    </>
+      </div>
+    </section>
   );
 };
+
 export default Hero;
-console.log(mainImage);
