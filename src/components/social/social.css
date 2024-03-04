@@ -1,0 +1,26 @@
+:root {
+  --social-icon-color: orange;
+  --social-icon-hover: rgb(157, 108, 17);
+  --social-container-bg: none;
+  --social-width: 33.33%;
+}
+#social {
+  z-index: 300;
+  position: relative;
+}
+.social-container {
+  background-color: var(--social-container-bg);
+  margin-bottom: -60px;
+}
+
+.social-width {
+  width: var(--social-width);
+  margin: 0 auto;
+}
+
+.social-icon {
+  color: var(--social-icon-color);
+}
+.social-icon:hover {
+  color: var(--social-icon-hover);
+}
