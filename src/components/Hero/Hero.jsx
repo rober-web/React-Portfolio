@@ -5,7 +5,7 @@ const Hero = () => {
   return (
     <section
       id="hero"
-      className="d-flex align-items-center min-vh-100 animate__animated animate__fadeInLeft "
+      className="d-flex align-items-center min-vh-100 animate__animated animate__fadeIn"
     >
       <div className="container-fluid">
         <div className="row">
@@ -13,13 +13,15 @@ const Hero = () => {
             <img
               id="hero-img"
               src={mainImage}
-              className="img-fluid main-image"
+              className="img-fluid main-image animate__animated animate__fadeInLeft"
               alt="Main"
             />
           </div>
-          <div className="col-md-6 the-border text-center d-flex flex-column align-items-center justify-content-center">
-            <h1 className="">Hello, this is Roberto</h1>
-            <p className="">
+          <div className="col-md-6 the-border text-center d-flex flex-column align-items-center justify-content-center ">
+            <h1 className="animate__animated animate__fadeInRight">
+              Hello, this is Roberto
+            </h1>
+            <p className="animate__animated animate__fadeInUp">
               Crafting Astonishing Websites to Knock Out Your Digital Goals.
             </p>
           </div>
