@@ -1,13 +1,17 @@
+import "./gallery.css";
+
 const Gallery = () => {
   return (
-    <>
-      <section
-        id="gallery"
-        className="min-vh-100 pt-5 animate__animated animate__fadeInLeft"
-      >
-        <h1 className="main-section-title text-center">Gallery</h1>
-      </section>
-    </>
+   
+      <div className="card col-sm-12 card-size">
+        <img src="./images/kodenart-img.PNG" className="card-img-top" alt="..." />
+          <div className="card-body">
+            <h5 className="card-title">Kodenart</h5>
+            <p className="card-text">HTML | CSS | JavaScript | PHP | Wordpress | Oxygen Page Builder </p>
+            <a href="https://kodenart.com/" target="_blank" className="btn btn-hero">Check Project</a>
+          </div>
+      </div>
+  
   );
 };
 export default Gallery;
