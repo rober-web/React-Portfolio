@@ -1,17 +1,22 @@
 :root {
   --main-section-title: 2em;
+  --main-section-title-md: 2.5em;
   --main-section-text: 1.5em;
 }
 
-*{
+* {
   list-style-type: none;
   padding: none;
-  margin:none;
+  margin: none;
   text-decoration: none;
 }
 
 .main-section {
-    
+
+}
+
+.main-section-bg{
+  
 }
 
 .main-section-title {
@@ -19,4 +24,15 @@
 }
 .main-section-text {
   font-size: var(--main-section-text);
+}
+
+/* Medium Size */
+
+/* Apply styles for screens 768px and wider (md) */
+@media (min-width: 768px) {
+  /* Your styles here */
+
+  .main-section-title {
+    font-size: var(--main-section-title-md);
+  }
 }
