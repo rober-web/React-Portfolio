@@ -1,7 +1,13 @@
-/* .main-section-bg {
+.main-section-bg {
   background-color: black;
+  color: white;
 }
 
+.btn-full-width {
+  width: 100%;
+}
+
+/* 
 .main-section-text {
   font-size: 1.2em;
 }
@@ -11,3 +17,18 @@
   color: white;
 }
  */
+
+/* Medium Size */
+
+/* Apply styles for screens 768px and wider (md) */
+@media (min-width: 768px) {
+  /* Your styles here */
+
+  .main-section-title {
+    font-size: var(--main-section-title-md);
+  }
+
+  .btn-full-width {
+    width: auto;
+  }
+}
