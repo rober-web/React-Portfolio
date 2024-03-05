@@ -1,4 +1,6 @@
 import { Link } from "react-router-dom";
+import "../../assets/css/style.css";
+import "./about.css";
 
 const About = () => {
   return (
@@ -9,7 +11,7 @@ const About = () => {
       {" "}
       <div className="container-fluid">
         <div className="row">
-          <div className="col-md-6">
+          <div className="col-md-6 d-flex align-items-center justify-content-center">
             <div className="text-center gap-20">
               <h1 className="main-section-title">About Me</h1>
             </div>
