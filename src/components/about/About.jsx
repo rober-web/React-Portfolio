@@ -6,7 +6,7 @@ const About = () => {
   return (
     <section
       id="about"
-      className="min-vh-100 p-3 d-flex  align-items-center justify-content-center animate__animated animate__fadeInRight"
+      className="min-vh-100 p-3 d-flex  align-items-center justify-content-center animate__animated animate__fadeIn"
     >
       {" "}
       <div className="container-fluid">
