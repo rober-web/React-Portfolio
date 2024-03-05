@@ -1,14 +1,31 @@
+import React, { useState, useEffect } from "react";
 import Header from "../template/Header";
 import Footer from "../template/Footer";
 import Gallery from "../components/gallery/Gallery";
+//import Project from "../assets/utils/galleryCards.json";
 
-const GalleryPage = () => {
+const GalleryPage = ({
+  title,
+  deployedVersionLink,
+  githubRepositoryLink,
+  screenshotSrc,
+}) => {
+  const [projectsData, setProjectsData] = useState([]);
+
+  useEffect(() => {
+    // Fetch the JSON data (replace 'your-json-file.json' with the actual path)
+    fetch("src/assets/utils/galleryCards.json")
+      .then((response) => response.json())
+      .then((data) => setProjectsData(data))
+      .catch((error) => console.error("Error fetching data:", error));
+  }, []);
+
   return (
     <div>
       <Header />
       <section
         id="gallery"
-        className="min-vh-100 p-3 pt-5 main-section-bg animate__animated animate__fadeInLeft"
+        className="min-vh-100  p-3 pt-5 main-section-bg animate__animated animate__fadeIn"
       >
         <div className="row">
           <div className="col d-flex flex-column justify-content-center align-items-center pb-5">
@@ -20,8 +37,16 @@ const GalleryPage = () => {
             </p>
           </div>
         </div>
-        <div className="row">
-          <Gallery />
+        <div className="row gap-4 justify-content-center">
+          {projectsData.map((project, index) => (
+            <Gallery
+              key={index}
+              title={project.title}
+              deployedVersionLink={project.deployedVersion}
+              githubRepositoryLink={project.githubRepository}
+              screenshotSrc={project.deployedScreenshot}
+            />
+          ))}
         </div>
       </section>
       <Footer />
