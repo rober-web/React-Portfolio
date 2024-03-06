@@ -1,8 +1,7 @@
 import React from "react";
-import { Link } from "react-router-dom";
+import { NavLink } from "react-router-dom";
 
 const Navbar = () => {
-  
   return (
     <>
       <nav className="navbar navbar-expand-md ">
@@ -26,27 +25,55 @@ const Navbar = () => {
             id="navbarNavAltMarkup"
           >
             <div className="navbar-nav">
-              <Link className="nav-link active" to="/home" aria-current="page">
+              <NavLink
+                className="nav-link"
+                to="/home"
+                style={({ isActive }) => ({
+                  color: isActive ? "orange" : "black",
+                })}
+                aria-current="page"
+              >
                 Home
-              </Link>
+              </NavLink>
             </div>
 
             <div className="navbar-nav">
-              <Link to="/about" className="nav-link" aria-current="page">
+              <NavLink
+                to="/about"
+                style={({ isActive }) => ({
+                  color: isActive ? "orange" : "black",
+                })}
+                className="nav-link"
+                aria-current="page"
+              >
                 About
-              </Link>
+              </NavLink>
             </div>
 
             <div className="navbar-nav">
-              <Link to="/gallery" className="nav-link" aria-current="page">
+              <NavLink
+                to="/gallery"
+                style={({ isActive }) => ({
+                  color: isActive ? "orange" : "black",
+                })}
+                className="nav-link"
+                aria-current="page"
+              >
                 Gallery
-              </Link>
+              </NavLink>
             </div>
 
             <div className="navbar-nav">
-              <Link to="/contact" className="nav-link" aria-current="page">
+              <NavLink
+                to="/contact"
+                style={({ isActive }) => ({
+                  color: isActive ? "orange" : "black",
+                })}
+                className="nav-link"
+                aria-current="page"
+              >
                 Contact
-              </Link>
+              </NavLink>
             </div>
           </div>
         </div>
