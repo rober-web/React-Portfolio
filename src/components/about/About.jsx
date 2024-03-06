@@ -8,7 +8,6 @@ const About = () => {
       id="about"
       className="min-vh-100 p-3 d-flex  align-items-center justify-content-center animate__animated animate__fadeIn"
     >
-      {" "}
       <div className="container-fluid">
         <div className="row">
           <div className="col-md-6 d-flex align-items-center justify-content-center">
