@@ -9,7 +9,7 @@ const Contact = () => {
       <div className="row pt-5">
         <div className="col-md-6 flex-column d-flex justify-content-center align-items-center">
           <h1 className="main-section-title text-center">Contact</h1>
-          <p className="main-section-text">
+          <p className="main-section-text text-center">
             Let's bring your ideas to life – contact me, and together, we'll
             create a digital masterpiece tailored to your vision.
           </p>
