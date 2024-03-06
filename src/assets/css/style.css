@@ -24,6 +24,15 @@
   font-size: var(--main-section-text);
 }
 
+/* CVPage */
+
+.ptop {
+  padding: 100px !important;
+}
+.the-pdf {
+  width: 90%;
+  height: 90vh;
+}
 /* Medium Size */
 
 /* Apply styles for screens 768px and wider (md) */

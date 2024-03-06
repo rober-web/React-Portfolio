@@ -14,7 +14,7 @@ import {
   faFilePdf,
 } from "@fortawesome/free-solid-svg-icons";
 
-import PDF from "../../assets/utils/MyCV.pdf";
+import CVComponent from "../cv/CVComponent";
 
 library.add(fab, faCheckSquare, faCoffee);
 
@@ -57,7 +57,7 @@ const Social = () => {
               <FontAwesomeIcon icon={faAt} className="fs-3 social-icon" />
             </Link>
             <li>
-              <Link title="CV">
+              <Link to="/resume" title="CV">
                 <FontAwesomeIcon
                   icon={faFilePdf}
                   className="fs-3 social-icon"

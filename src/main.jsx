@@ -9,6 +9,7 @@ import HomePage from "./pages/HomePage";
 import AboutPage from "./pages/AboutPage";
 import GalleryPage from "./pages/GalleryPage";
 import ContactPage from "./pages/ContactPage";
+import CVPage from "./pages/CVPage";
 
 const router = createBrowserRouter([
   {
@@ -34,6 +35,11 @@ const router = createBrowserRouter([
   {
     path: "/contact",
     element: <ContactPage />,
+    errorElement: <h1>404 Not Found</h1>,
+  },
+  {
+    path: "/resume",
+    element: <CVPage />,
     errorElement: <h1>404 Not Found</h1>,
   },
 ]);
