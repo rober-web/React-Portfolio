@@ -14,6 +14,8 @@ import {
   faFilePdf,
 } from "@fortawesome/free-solid-svg-icons";
 
+import PDF from "../../assets/utils/MyCV.pdf";
+
 library.add(fab, faCheckSquare, faCoffee);
 
 const Social = () => {
