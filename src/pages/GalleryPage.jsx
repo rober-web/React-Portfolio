@@ -20,7 +20,7 @@ const GalleryPage = () => {
       <Header />
       <section
         id="gallery"
-        className="min-vh-100  p-3 pt-5 main-section-bg animate__animated animate__fadeIn"
+        className="min-vh-100  p-3 pt-5 pb-5 main-section-bg animate__animated animate__fadeIn"
       >
         <div className="container">
           <div className="row mt-5">
