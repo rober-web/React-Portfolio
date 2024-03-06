@@ -1,6 +1,6 @@
 :root {
   --main-section-title: 2em;
-  --main-section-title-md: 2.5em;
+  --main-section-title-md: 2em;
   --main-section-text: 1.5em;
 }
 
@@ -12,11 +12,9 @@
 }
 
 .main-section {
-
 }
 
-.main-section-bg{
-  
+.main-section-bg {
 }
 
 .main-section-title {
