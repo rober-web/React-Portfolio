@@ -14,7 +14,7 @@ const Gallery = ({
         alt="..."
       />
       <div className="card-body">
-        <h5 className="card-title text-center">{title}</h5>
+        <h5 className="main-section-title text-center">{title}</h5>
         {/* You can add additional details or customize the layout here */}
         {/* Example: */}
         <div className="d-flex flex-column justify-content-center align-items-center gap-2">
