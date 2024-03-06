@@ -18,12 +18,16 @@ library.add(fab, faCheckSquare, faCoffee);
 
 const Social = () => {
   return (
-    <div id="social" className="container-fluid social-container p-3">
+    <div id="social" className="container-fluid social-container ">
       <div className="row">
         <div className="col ">
           <ul className="d-flex gap-3 justify-content-center social-width">
             <li>
-              <Link to="https://github.com/rober-web" target="_blank" title="Github">
+              <Link
+                to="https://github.com/rober-web"
+                target="_blank"
+                title="Github"
+              >
                 <FontAwesomeIcon
                   icon={["fab", "github"]}
                   className="fs-3 social-icon"
@@ -31,14 +35,22 @@ const Social = () => {
               </Link>
             </li>
             <li>
-              <Link to="https://github.com/rober-web" target="_blank" title="Linkedin">
+              <Link
+                to="https://github.com/rober-web"
+                target="_blank"
+                title="Linkedin"
+              >
                 <FontAwesomeIcon
                   icon={["fab", "linkedin"]}
                   className="fs-3 social-icon"
                 />
               </Link>
             </li>
-            <Link to="https://github.com/rober-web" target="_blank" title="Email">
+            <Link
+              to="https://github.com/rober-web"
+              target="_blank"
+              title="Email"
+            >
               <FontAwesomeIcon icon={faAt} className="fs-3 social-icon" />
             </Link>
             <li>
