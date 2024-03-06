@@ -36,7 +36,7 @@ const Social = () => {
             </li>
             <li>
               <Link
-                to="https://github.com/rober-web"
+                to="https://linkedin.com/in/roberto-medeiros"
                 target="_blank"
                 title="Linkedin"
               >
@@ -47,7 +47,8 @@ const Social = () => {
               </Link>
             </li>
             <Link
-              to="https://github.com/rober-web"
+              to="javascript:void(0)"
+              onClick={() => (window.location = "mailto:hello@roberweb.com")}
               target="_blank"
               title="Email"
             >
