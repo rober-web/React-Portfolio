@@ -7,7 +7,7 @@ const Gallery = ({
   screenshotSrc,
 }) => {
   return (
-    <div className="card col-sm-12 col-md-3 card-size p-3">
+    <div className="card col-sm-6 col-md-4 col-lg-3 card-size p-3">
       <img
         src={screenshotSrc}
         className="card-img-top shadow border border-dark mb-3"
