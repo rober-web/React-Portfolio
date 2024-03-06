@@ -1,12 +1,14 @@
 import "./hero.css";
 import mainImage from "../../assets/img/main-image.png";
 
+
 const Hero = () => {
   return (
     <section
       id="hero"
       className="d-flex align-items-center min-vh-100 animate__animated animate__fadeIn"
     >
+ 
       <div className="container-fluid">
         <div className="row">
           <div className="col-md-6 the-border d-flex justify-content-center px-5 pb-5 mt-md-5">
