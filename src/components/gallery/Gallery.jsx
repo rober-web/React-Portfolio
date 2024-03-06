@@ -24,7 +24,7 @@ const Gallery = ({
             rel="noopener noreferrer"
             className="btn btn-info btn-full-width"
           >
-            Check Deployed Version
+            Check the Project
           </a>
 
           <a
