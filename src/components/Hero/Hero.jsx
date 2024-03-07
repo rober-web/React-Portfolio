@@ -1,14 +1,12 @@
 import "./hero.css";
 import mainImage from "../../assets/img/main-image.png";
 
-
 const Hero = () => {
   return (
     <section
       id="hero"
-      className="d-flex align-items-center min-vh-100 animate__animated animate__fadeIn"
+      className="d-flex align-items-center min-vh-100 animate__animated animate__fadeIn p-5"
     >
- 
       <div className="container-fluid">
         <div className="row">
           <div className="col-md-6 the-border d-flex justify-content-center px-5 pb-5 mt-md-5">
@@ -24,7 +22,8 @@ const Hero = () => {
               Hello, this is Roberto
             </h1>
             <p className="animate__animated animate__fadeInUp">
-              Crafting Astonishing Websites to Knock Out Your Digital Goals.
+              Welcome to my Porfolio! - Crafting Astonishing Websites to Knock
+              Out Your Digital Goals.
             </p>
           </div>
         </div>
