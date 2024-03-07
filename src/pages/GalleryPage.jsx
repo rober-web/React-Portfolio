@@ -2,13 +2,13 @@ import React, { useState, useEffect } from "react";
 import Header from "../template/Header";
 import Footer from "../template/Footer";
 import Gallery from "../components/gallery/Gallery";
-//import Project from "../assets/utils/galleryCards.json";
+
 
 const GalleryPage = () => {
   const [projectsData, setProjectsData] = useState([]);
 
   useEffect(() => {
-    // Fetch the JSON data (replace 'your-json-file.json' with the actual path)
+    // Fetch the JSON data 
     fetch("src/assets/utils/galleryCards.json")
       .then((response) => response.json())
       .then((data) => setProjectsData(data))

@@ -15,8 +15,9 @@ const Gallery = ({
       />
       <div className="card-body">
         <h5 className="main-section-title text-center">{title}</h5>
-        {/* You can add additional details or customize the layout here */}
-        {/* Example: */}
+        
+        {/* I yet have to decide wether adding a description or not in this section */}
+       
         <div className="d-flex flex-column justify-content-center align-items-center gap-2">
           <a
             href={deployedVersionLink}
