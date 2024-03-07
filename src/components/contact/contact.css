@@ -1,3 +1,5 @@
+/* Not using variables as not expecting this style sheet grows for a simple and small component */
+
 .the-form {
   background-color: orange;
   box-shadow: 1px 0px 8px -1px rgba(0, 0, 0, 0.62);
@@ -20,9 +22,8 @@
   color: white;
 }
 
-
 @media (max-width: 576px) {
   .xs-padding {
-      padding: 0; /* Remove padding for xs devices */
+    padding: 0; /* Remove padding for xs devices */
   }
 }

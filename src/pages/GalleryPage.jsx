@@ -1,10 +1,11 @@
-import React, { useState, useEffect } from "react";
+import { useState, useEffect } from "react";
 import Header from "../template/Header";
 import Footer from "../template/Footer";
 import Gallery from "../components/gallery/Gallery";
 
 
 const GalleryPage = () => {
+  //State to pass data dynamically through props to the gallery cards
   const [projectsData, setProjectsData] = useState([]);
 
   useEffect(() => {
@@ -36,6 +37,7 @@ const GalleryPage = () => {
         </div>
 
         <div className="row gap-4 justify-content-center">
+          {/* Rendering dynamically the gallery cards */}
           {projectsData.map((project, index) => (
             <Gallery
               key={index}

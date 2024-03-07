@@ -1,3 +1,5 @@
+/* Created root: and variables as this page expects to grow in a future*/
+
 :root {
   --bg-primary-color: rgb(6, 11, 67);
   --hero-title-color: rgb(194, 141, 44);
@@ -45,39 +47,18 @@
   outline: 10px solid white;
   border-radius: 100%;
 }
-.the-border {
-  /* border: solid 1px red; */
-}
+
 .main-image {
   /* width: 250px; */
   width: min(max(250px, 80%), 400px);
   height: auto; /* Ensures the height adjusts proportionally */
 }
 
-/* Example media query for small screens */
+/* Small screens */
 @media (min-width: 576px) {
-  /* Your styles for small screens */
+  /* Styles for small screens */
   .main-image {
     margin-top: 50px;
   }
 }
 
-/* Example media query for medium screens */
-@media (min-width: 768px) {
-  /* Your styles for medium screens */
-}
-
-/* Example media query for large screens */
-@media (min-width: 992px) {
-  /* Your styles for large screens */
-}
-
-/* Example media query for extra-large screens */
-@media (min-width: 1200px) {
-  /* Your styles for extra-large screens */
-}
-
-/* Example media query for extra-extra-large screens */
-@media (min-width: 1400px) {
-  /* Your styles for extra-extra-large screens */
-}

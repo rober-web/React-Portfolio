@@ -30,16 +30,7 @@
 .card:hover:nth-child(odd) {
   transform: scale(1.1) rotate(3deg);
 }
-/* 
-.main-section-text {
-  font-size: 1.2em;
-}
 
-.main-section-title,
-.main-section-text {
-  color: white;
-}
- */
 
 /* XS Devices */
 

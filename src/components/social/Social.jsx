@@ -1,10 +1,7 @@
 import { Link } from "react-router-dom";
-// get our fontawesome imports
-
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-//import { fab, github } from "@fortawesome/free-solid-svg-icons";
 import "./social.css";
-
+// get our fontawesome imports
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { library } from "@fortawesome/fontawesome-svg-core";
 import { fab } from "@fortawesome/free-brands-svg-icons";
 import {
@@ -13,8 +10,6 @@ import {
   faAt,
   faFilePdf,
 } from "@fortawesome/free-solid-svg-icons";
-
-import CVComponent from "../cv/CVComponent";
 
 library.add(fab, faCheckSquare, faCoffee);
 
