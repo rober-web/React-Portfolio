@@ -33,6 +33,11 @@
   width: 90%;
   height: 90vh;
 }
+
+.nav-link:hover {
+  outline: 3px solid orange;
+  color: black;
+}
 /* Medium Size */
 
 /* Apply styles for screens 768px and wider (md) */
