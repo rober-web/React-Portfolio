@@ -15,9 +15,9 @@ const Gallery = ({
       />
       <div className="card-body">
         <h5 className="main-section-title text-center">{title}</h5>
-        
+
         {/* I yet have to decide wether adding a description or not in this section */}
-       
+
         <div className="d-flex flex-column justify-content-center align-items-center gap-2">
           <a
             href={deployedVersionLink}
@@ -25,7 +25,7 @@ const Gallery = ({
             rel="noopener noreferrer"
             className="btn btn-info btn-full-width"
           >
-            Check the Project
+            See Project
           </a>
 
           <a
@@ -34,7 +34,7 @@ const Gallery = ({
             rel="noopener noreferrer"
             className="btn btn-secondary btn-full-width "
           >
-            GitHub Repository
+            See GitHub
           </a>
         </div>
       </div>
