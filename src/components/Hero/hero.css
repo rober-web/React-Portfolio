@@ -1,17 +1,32 @@
 :root {
-  --bg-primary-color: rgb(6, 11, 67);;
+  --bg-primary-color: rgb(6, 11, 67);
   --hero-title-color: rgb(194, 141, 44);
   --hero-title-font: "Roboto Condensed", sans-serif;
   --hero-title-font-size: 2.5em;
   --hero-tagline-color: rgb(255, 255, 255);
   --hero-tagline-font: "Montserrat", sans-serif;
   --hero-tagline-font-size: 1.3em;
+
+  /* Hero Gradient */
+
+  --gradient-angle: 260deg;
+  --gradient-color-1: rgba(8, 2, 122, 0.891281512605042);
+  --gradient-color-2: rgba(6, 11, 67, 1);
+  --gradient-color-3: rgba(92, 3, 176, 1);
 }
 
 #hero {
   height: auto;
   background-color: var(--bg-primary-color);
   color: rgb(194, 141, 44);
+  background: rgb(6, 11, 67);
+  /*   background: rgb(8, 2, 122); */
+  background: linear-gradient(
+    var(--gradient-angle),
+    var(--gradient-color-1) 0%,
+    var(--gradient-color-2) 0%,
+    var(--gradient-color-3) 97%
+);
 }
 #hero h1 {
   font-family: var(--hero-title-font);
@@ -27,6 +42,8 @@
   font-size: var(--hero-tagline-font-size);
 }
 #hero-img {
+  outline: 10px solid white;
+  border-radius: 100%;
 }
 .the-border {
   /* border: solid 1px red; */
