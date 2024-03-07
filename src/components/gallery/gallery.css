@@ -7,6 +7,22 @@
   width: 100%;
 }
 
+.card {
+  transition: transform 0.4s ease-in-out;
+}
+.card:hover {
+  outline: 5px solid orange;
+  cursor: pointer;
+  transform: scale(1.1);
+  z-index: 100;
+  border: none;
+}
+.card:hover:nth-child(even) {
+  transform: scale(1.1) rotate(-3deg);
+}
+.card:hover:nth-child(odd) {
+  transform: scale(1.1) rotate(3deg);
+}
 /* 
 .main-section-text {
   font-size: 1.2em;
@@ -17,6 +33,25 @@
   color: white;
 }
  */
+
+/* XS Devices */
+
+@media (max-width: 576px) {
+  /* Styles for xs devices */
+  .card {
+    transition: none; /* Remove transition for mobile devices */
+  }
+
+  .card:hover,
+  .card:hover:nth-child(even),
+  .card:hover:nth-child(odd) {
+    transform: none; /* Remove hover effects for mobile devices */
+    outline: none;
+    scale: none;
+    z-index: none;
+
+  }
+}
 
 /* Medium Size */
 
