@@ -1,4 +1,3 @@
-import React from "react";
 import { Link, NavLink } from "react-router-dom";
 
 const Navbar = () => {
@@ -6,6 +5,7 @@ const Navbar = () => {
     <>
       <nav className="navbar navbar-expand-md ">
         <div className="container-fluid">
+          {/* Used Link to render the Brand to the home page*/}
           <Link to="/" className="navbar-brand">
             RoberWeb
           </Link>
@@ -25,6 +25,7 @@ const Navbar = () => {
             id="navbarNavAltMarkup"
           >
             <div className="navbar-nav">
+              {/* Used NavLinks to render the Active class conditionally*/}
               <NavLink
                 className="nav-link"
                 to="/home"
