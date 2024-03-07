@@ -1,5 +1,10 @@
 .main-section-bg {
-  background-color: rgb(6, 11, 67);
+  background: rgb(6, 11, 67);
+  background: linear-gradient(
+    260deg,
+    rgba(6, 11, 67, 1) 26%,
+    rgba(8, 2, 122, 0.891281512605042) 100%
+  );
   color: white;
 }
 
