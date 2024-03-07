@@ -4,9 +4,9 @@ const Contact = () => {
   return (
     <section
       id="contact"
-      className="min-vh-100 p-3 pt-5  animate__animated animate__fadeIn"
+      className="min-vh-100 p-3 pt-5 p-5 animate__animated animate__fadeIn xs-padding"
     >
-      <div className="row pt-5">
+      <div className="row pt-5 ">
         <div className="col-md-6 flex-column d-flex justify-content-center align-items-center">
           <h1 className="main-section-title text-center">Contact</h1>
           <p className="main-section-text text-center">
@@ -16,9 +16,13 @@ const Contact = () => {
         </div>
 
         <div className="col-md-6 flex-column d-flex justify-content-center align-items-center p-3 the-form">
-          {/* Contact Form */}
 
-          <form action="/submit-form" method="post" className="w-75 mx-auto">
+
+          <form
+            action="/submit-form"
+            method="post"
+            className="w-75 mx-auto py-5 xs-padding"
+          >
             <div className="mb-3">
               <label htmlFor="name" className="form-label">
                 Name:
