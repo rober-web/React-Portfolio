@@ -55,7 +55,7 @@
 }
 
 /* Small screens */
-@media (max-width: 576px) {
+@media (max-width: 768px) {
   /* Styles for small screens */
   .main-image {
     margin-top: 50px;
