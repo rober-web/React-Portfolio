@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import "./hero.css";
 import mainImage from "../../assets/img/main-image.png";
 
@@ -25,6 +26,9 @@ const Hero = () => {
               Welcome to my Porfolio! - Crafting Astonishing Websites to Knock
               Out Your Digital Goals.
             </p>
+            <Link className="btn btn-warning" to="/gallery">
+              Let's do That!
+            </Link>
           </div>
         </div>
       </div>
