@@ -38,6 +38,10 @@
   outline: 3px solid orange;
   color: black;
 }
+
+.btn-warning{
+  background-color: orange;
+}
 /* Medium Size */
 
 /* Apply styles for screens 768px and wider (md) */
