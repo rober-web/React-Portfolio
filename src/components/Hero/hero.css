@@ -28,7 +28,7 @@
     var(--gradient-color-1) 0%,
     var(--gradient-color-2) 0%,
     var(--gradient-color-3) 97%
-);
+  );
 }
 #hero h1 {
   font-family: var(--hero-title-font);
@@ -55,10 +55,9 @@
 }
 
 /* Small screens */
-@media (min-width: 576px) {
+@media (max-width: 576px) {
   /* Styles for small screens */
   .main-image {
     margin-top: 50px;
   }
 }
-

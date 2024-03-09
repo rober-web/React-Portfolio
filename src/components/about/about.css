@@ -10,6 +10,15 @@
 
 .about-info {
   background-color: white;
-  color: blue;
+  color: rgb(11, 11, 75);
   border-radius: 10px;
+}
+
+/* Small screens */
+@media (max-width: 768px) {
+  /* Styles for small screens */
+  .main-section-title-about{
+    margin-top: 60px;
+    margin-bottom: 30px;
+  }
 }
