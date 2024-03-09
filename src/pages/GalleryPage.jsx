@@ -3,14 +3,13 @@ import Header from "../template/Header";
 import Footer from "../template/Footer";
 import Gallery from "../components/gallery/Gallery";
 
-
 const GalleryPage = () => {
   //State to pass data dynamically through props to the gallery cards
   const [projectsData, setProjectsData] = useState([]);
 
   useEffect(() => {
-    // Fetch the JSON data 
-    fetch("src/assets/utils/galleryCards.json")
+    // Fetch the JSON data
+    fetch("./src/assets/utils/galleryCards.json")
       .then((response) => response.json())
       .then((data) => setProjectsData(data))
       .catch((error) => console.error("Error fetching data:", error));
