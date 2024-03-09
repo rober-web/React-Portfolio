@@ -30,10 +30,12 @@
 
 - [How to Display PDF in React](https://betterprogramming.pub/how-to-display-pdfs-but-prevent-them-from-downloading-in-react-2e77292ca9a5)
 
+- [Deployment in Hostinger](https://www.youtube.com/watch?v=iCAG7saT358)
+
 ## Accessing the Portfolio
 
 ![Portfolio Screenshot](src/assets/img/portfolio-image.PNG)
 
 ## Portfolio Address
 
-[View my React Portfolio Website](https://rober-web.github.io/React-Portfolio/)
+[View my React Portfolio Website](https://react-portfolio.roberweb.com/)
