@@ -1,5 +1,6 @@
 //This page is rendered once the pdf icon is clicked on Social component
 //It shall not appear in the NavBar component
+import React from "react";
 import "../assets/css/style.css";
 import Header from "../template/Header";
 import Footer from "../template/Footer";
