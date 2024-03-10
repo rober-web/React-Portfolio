@@ -17,7 +17,7 @@ const GalleryPage = () => {
       .then((response) => response.json())
       .then((data) => setProjectsData(data))
       .catch((error) => console.error("Error fetching data:", error));
-  }, [projectsData]);
+  }, []);
 
   return (
     <div>
