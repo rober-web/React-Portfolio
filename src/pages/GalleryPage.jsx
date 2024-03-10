@@ -8,12 +8,15 @@ const GalleryPage = () => {
   const [projectsData, setProjectsData] = useState([]);
 
   useEffect(() => {
+    const baseURL = window.location.origin;
+    const jsonURL = `${baseURL}/galleryCards.json`;
+    console.log(jsonURL);
     // Fetch the JSON data
-    fetch("./src/assets/utils/galleryCards.json")
+    fetch(jsonURL)
       .then((response) => response.json())
       .then((data) => setProjectsData(data))
       .catch((error) => console.error("Error fetching data:", error));
-  }, []);
+  }, [projectsData]);
 
   return (
     <div>
