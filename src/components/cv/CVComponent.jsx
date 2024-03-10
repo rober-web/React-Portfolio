@@ -1,3 +1,4 @@
+import React from "react";
 import PDF from "../../assets/utils/MyCV.pdf";
 
 const CVComponent = () => (

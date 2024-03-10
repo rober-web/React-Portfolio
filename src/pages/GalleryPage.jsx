@@ -1,3 +1,4 @@
+import React from "react";
 import { useState, useEffect } from "react";
 import Header from "../template/Header";
 import Footer from "../template/Footer";
@@ -16,7 +17,7 @@ const GalleryPage = () => {
       .then((response) => response.json())
       .then((data) => setProjectsData(data))
       .catch((error) => console.error("Error fetching data:", error));
-  }, [projectsData]);
+  }, []);
 
   return (
     <div>
