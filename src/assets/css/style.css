@@ -1,0 +1,54 @@
+:root {
+  --main-section-title: 2em;
+  --main-section-title-md: 2em;
+  --main-section-text: 1.5em;
+}
+
+* {
+  list-style-type: none;
+  padding: none;
+  margin: none;
+  text-decoration: none;
+}
+
+.main-section {
+}
+
+.main-section-bg {
+}
+
+.main-section-title {
+  font-size: var(--main-section-title);
+}
+.main-section-text {
+  font-size: var(--main-section-text);
+}
+
+/* CVPage */
+
+.ptop {
+  padding: 100px !important;
+}
+.the-pdf {
+  width: 90%;
+  height: 90vh;
+}
+
+.nav-link:hover {
+  outline: 3px solid orange;
+  color: black;
+}
+
+.btn-warning{
+  background-color: orange;
+}
+/* Medium Size */
+
+/* Apply styles for screens 768px and wider (md) */
+@media (min-width: 768px) {
+  /* Your styles here */
+
+  .main-section-title {
+    font-size: var(--main-section-title-md);
+  }
+}
