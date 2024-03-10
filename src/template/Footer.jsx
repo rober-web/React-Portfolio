@@ -1,3 +1,4 @@
+import React from "react";
 import "./template.css";
 
 const Footer = () => {

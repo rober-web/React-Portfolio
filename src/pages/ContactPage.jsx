@@ -1,3 +1,4 @@
+import React from "react";
 import Header from "../template/Header";
 import Footer from "../template/Footer";
 import Contact from "../components/contact/Contact";
