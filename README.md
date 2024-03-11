@@ -31,6 +31,9 @@
 - [How to Display PDF in React](https://betterprogramming.pub/how-to-display-pdfs-but-prevent-them-from-downloading-in-react-2e77292ca9a5)
 
 - [Deployment in Hostinger](https://www.youtube.com/watch?v=iCAG7saT358)
+-- I could deploy it in Hostinger; however, refreshing the browser makes the pages disappear and generates a 404 not found. Then resolved to start back with netlify.
+- [How to Fix Netlify Page Not Found?](https://www.youtube.com/watch?v=Ff6LBcYSlRk&ab_channel=RajeshBhattarai)
+- [Create Deploys | Netlify](https://docs.netlify.com/site-deploys/create-deploys/#deploy-with-git)
 
 ## Accessing the Portfolio
 
